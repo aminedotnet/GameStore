@@ -1,0 +1,27 @@
+GET http://localhost:5135/games
+###
+GET http://localhost:5135/games/2
+###
+POST http://localhost:5135/games
+Content-Type: application/json 
+
+{
+  "name": "Amine",
+  "genreId": 4,
+  "price": 19.99,
+  "releaseDate": "2011-05-16"
+}
+
+###
+PUT http://localhost:5135/games/1
+Content-Type: application/json 
+
+{
+  "name": "Elden Ring",
+  "genreId": 4,
+  "price": 59.99,
+  "releaseDate": "2022-02-25"
+}
+
+###
+DELETE http://localhost:5135/games/8
