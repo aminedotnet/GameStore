@@ -29,4 +29,4 @@ Built using **ASP.NET Web API** and **Entity Framework**, this API allows users 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/aminedev/GameCatalogAPI.git
+git clone https://github.com/aminesdev/GameCatalogAPI.git
